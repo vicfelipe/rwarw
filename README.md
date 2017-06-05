@@ -1,7 +1,7 @@
 # Victor Alencastro - http://victoralencastro.com.br
 
-> Welcome to my website!
-> My name is Victor. I have 24 years old. I'm Web developer.
+Welcome to my website!
+My name is Victor. I have 24 years old. I'm Web developer.
 
 # Development skills
 
