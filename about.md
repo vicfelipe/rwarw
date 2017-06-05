@@ -12,3 +12,7 @@ Development skills
 HTML5, CSS3, Javascript, NodeJS, VueJS 2.0, PHP, MySQL, MsSQL, MongoDB, C# .NET.
 
 That's all for while...
+
+#Contact
+
+E-mail: vicfelipe@live.com
