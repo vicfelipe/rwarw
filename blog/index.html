@@ -22,8 +22,7 @@ description: "Pelo menos o conteúdo vai ser em Português né Victor?"
                 <div class="content">
                     <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
                     <p class="description">
-                        {{ post.content | strip_html | truncatewords:40 }}
-                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+                        {{ post.content | strip_html | truncatewords:30 }}
                     </p>
 
                     <div class="tags">
