@@ -1,7 +1,7 @@
 # Site settings
 title: Victor Alencastro - Front End Developer
 description: Victor Alencastro - Front End Developer - Desenvolvedor Front End de Hortolândia para o mundo.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://victoralencastro.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
