@@ -63,7 +63,7 @@ if [[ "${1}" == "-p" || "${1}" == "--publish" ]]; then
 fi
 
 # Set your blog URL
-BLOG_URL="your_site"
+BLOG_URL="blog/"
 
 # Set your assets URL
 ASSETS_URL="assets/img/"

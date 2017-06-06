@@ -1,18 +1,18 @@
 # Site settings
 title: Victor Alencastro - Front End Developer
-description: Front End Developer / UX Designer
+description: Victor Alencastro - Front End Developer / UX Designer from Hortolândia to the World.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://victoralencastro.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Victor Alencastro
 user_description: Just a novice Front End Developer who loves games and tv shows.
-user_title: Victor Alencastro
+user_title: Front End Developer / UX Designer
 email: vicfelipe@live.com
-twitter_username: https://twitter.com/VictorAlencast2
-github_username:  https://github.com/vicfelipe
-gplus_username:  https://plus.google.com/u/0/100908083867746365378
-disqus_username: https://disqus.com/by/victoralencastro/
+twitter_username: VictorAlencast2
+github_username:  vicfelipe
+gplus_username:  100908083867746365378
+disqus_username: victoralencastro
 
 # Build settings
 markdown: kramdown

@@ -4,7 +4,7 @@ body
 
 
 $bg
-	background darken(main, 30%)
+	background darken(main, 80%)
 	height 100%
 	.content
 		width 95%
@@ -34,10 +34,14 @@ $bg
 
 // Header Post
 .header-post
-	@extends $bg
+	background darken(main, 80%)
+	height 50%
 	.content
 		+above(cut)
 			center(1000px)
+		top 25%!important
+		align(both)
+		text-align center
 	.subheader
 		display table
 		padding 20px

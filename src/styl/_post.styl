@@ -1,3 +1,13 @@
+.post-item
+    .datetime
+        border-bottom none
+    .content 
+        .description
+            a
+                text-decoration none
+                &:hover
+                    color white
+                    background-color hover
 .post-content
     padding rem(40px) 0
     img
@@ -23,6 +33,10 @@
         color main
         text-decoration none
         border-bottom 2px solid main
+        transition all .5s
+        &:hover
+            color white
+            
     iframe
         margin-top rem(30px)
         width 100%
