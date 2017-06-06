@@ -1,16 +1,43 @@
-name: Victor Alencastro
-description: Front End Developer
-meta_description: "Victor Alencastro, Desenvolvedor Front-End / Front End Developer. Hortolândia/SP"
+# Site settings
+title: Victor Alencastro - Front End Developer
+description: Victor Alencastro - Front End Developer - Desenvolvedor Front End de Hortolândia para o mundo.
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://victoralencastro.com.br" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
+# User settings
+username: Victor Alencastro
+user_description: Front End Developer / UX Designer
+user_title: Victor Alencastro
+email: vicfelipe@live.com
+twitter_username: https://twitter.com/VictorAlencast2
+github_username:  https://github.com/vicfelipe
+gplus_username:  https://plus.google.com/u/0/100908083867746365378
+disqus_username: https://disqus.com/by/victoralencastro/
+
+# Build settings
 markdown: kramdown
-highlighter: pygments
-logo: false
-paginate: 15
-baseurl: /
-domain_name: 'http://victoralencastro.com.br'
-google_analytics: 'UA-69169825-1'
-gems: [jekyll-paginate]
+highlighter: rouge
+permalink: /:title/
 
-# Details for the RSS feed generator
-url:            'http://victoralencastro.com.br'
-author:         'Victor Alencastro'
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About Me
+    url: /about
+  - title: Projects
+    url: /projects
+  - title: Blog
+    url: /blog
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
